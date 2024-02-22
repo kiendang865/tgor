@@ -1,0 +1,31 @@
+.payment-info{
+  .columbarium-niches{
+    .wrapper-btn{
+      margin-right: 32px;
+      .btn{
+        background: $arboretim;
+        color: $white;
+        font-size: 16px;
+      }
+      .btn-save{
+        width: 174px;
+        height: 39px;
+      }
+      .btn-print{
+        background: #66A48A;
+        width: 94px;
+        height: 39px;
+      }
+      .btn-send-agreement{
+        background: #66A48A;
+        width: 140px;
+        height: 39px;
+      }
+      .btn-delete{
+        background: #B70050;
+        width: 174px;
+        height: 39px;
+      }
+    }
+  }
+}

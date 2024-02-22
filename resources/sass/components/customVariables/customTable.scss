@@ -1,0 +1,88 @@
+.controllTable{
+    transition: all 1s;
+    .head-actions
+    {
+        height:35px;
+        margin-top: 10px;
+        .pull-content-left{
+            .content-left{
+                .btn-extentsion{
+                    padding:5px 12px 5px 12px;
+                    background: #71C5A1;
+                    border-radius: 5px;
+                    color: #FFFFFF;
+                    height: 31px;
+                    width: 122px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                .search{
+                    cursor: pointer;
+                    padding-right:10px;
+                    padding-left:5px;
+                    .image{
+                        width:16px;
+                        height:17px;
+                    }
+                }
+                .bulk-action{
+                    > .b-dropdown{
+                        border: 1px solid rgba(0, 0, 0, 0.15);
+                        border-radius: 0.25rem;
+                        height: 53px;
+                        > .dropdown-toggle{
+                            background-color: transparent !important;
+                            width: 165px;
+                            &:hover{
+                                background-color: transparent;
+                            }
+                            &:active{
+                                background-color: transparent;
+                            }
+
+                        }
+                    }
+                }
+                padding-left:18px;
+            }
+            
+        }
+        .filter{
+            .show{
+                height: 53px;
+            }
+            .d-none{
+                visibility: none;
+            }
+            .form-control{
+                margin-top: 5px;
+                height: 53px;
+            }
+            .multiselect{
+                margin-top: 5px;
+            }
+            .w-95{
+                width: 95%;
+            }
+        }
+        .pull-content-right{
+            display: flex;
+            justify-content: center;
+            > div{
+                padding: 0px 3px;
+                .image{
+                    -moz-user-select: none; /* Firefox */
+                    -ms-user-select: none; /* Internet Explorer */
+                    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+                    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+                    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+                    cursor: pointer;
+                    width:16px;
+                    height:17px;
+                }
+            }
+            margin-left: -1%;
+            text-align:end;
+        }
+    }
+}

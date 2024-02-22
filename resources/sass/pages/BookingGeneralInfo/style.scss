@@ -1,0 +1,34 @@
+.booking-info-general{
+  .columbarium-niches{
+    .wrapper-btn{
+      margin-right: 32px;
+      .btn{
+        background: $arboretim;
+        color: $white;
+        font-size: 16px;
+      }
+      .btn-change{
+        width: 184px;
+        height: 39px;
+      }
+      .btn-save{
+        width: 174px;
+        height: 39px;
+      }
+    }
+  }
+  .tabs-index{
+    border: none;
+    ul {
+      height:53px;  
+      color:$black;
+      border:none!important;
+      .nav-item{
+        height:53px;
+        &:first-child{
+          width:159px !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.others-table{
+    background-color: $white;
+    margin-top: 12px;
+    height: 100%;
+}
+.content{
+    height: calc(100vh - 80px);
+    padding: 24px 36px;
+    max-height: calc(100vh - 80px);
+    overflow: auto;
+    .outside-table{
+        height: auto;
+        background: $white;
+        border: 1px solid #DFE0EB;
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+        .pagination{
+            margin-top: 50px;
+            color:#DADADA;
+            font-size: 14px;
+            line-height: 20px;
+           .end{
+                position:absolute;
+                bottom:19px;
+                text-align:end;
+                .icon{
+                    cursor: pointer;
+                    padding: 0 10px 0 10px;
+                    .image{
+                        width: 7px;
+                        height: 12px;
+                    }
+                }
+           }
+        }
+    }
+}
+

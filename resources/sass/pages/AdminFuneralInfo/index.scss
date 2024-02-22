@@ -1,0 +1,63 @@
+.admin-funeral-info{
+    .columbarium-niches{
+      .wrapper-btn{
+        margin-right: 32px;
+        .btn{
+          background: $arboretim;
+          color: $white;
+          font-size: 16px;
+        }
+        .btn-save{
+          width: 174px;
+          height: 39px;
+        }
+      }
+    }
+    .funeral-info-admin{
+      overflow: auto;
+      margin-top: 15px;
+      padding: 26px 38px 30px 41px;
+      background: $white;
+      max-height: calc(100vh - 83px);
+      height: calc(100vh - 83px);
+      .text-label{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        color: #666666;
+      }
+      .contact-person-outside-table{
+        border: 1px solid #DFE0EB;
+        border-radius: 8px;
+        width: 100%;
+        min-height: calc(100vh - 430px);
+        // position:relative;
+        .content-table{
+          // height: calc(100vh - 560px);
+          position:relative;
+          min-height: calc(100vh - 432px);
+          .pagination {
+            margin-top: 40px;
+            color: #dadada;
+            font-size: 14px;
+            line-height: 20px;
+            .end {
+              position:absolute;
+              bottom: 19px;
+              text-align: end;
+              .icon {
+                cursor: pointer;
+                padding: 0 10px 0 10px;
+                .image {
+                  width: 7px;
+                  height: 12px;
+                }
+              }
+            }
+          
+        }
+        }
+      }
+    }
+  }

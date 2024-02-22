@@ -1,0 +1,117 @@
+.background-brilliance{
+    background: $gray-200;
+.content-login {
+  color: #666666;
+  width: 100%;  
+  margin: auto;
+  max-width: 413px;
+  .form-group {
+    .col-form-label-lg {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 22px;
+      padding-bottom: 8px;
+      color: #666666;
+    }
+  }
+  .form-control-lg{
+    padding: 0.75rem 1rem!important;
+  }
+  .logo {
+    img {
+      width: 219px;
+      height: 46px;
+    }
+    width: 100%;
+    margin-bottom: 39px;
+  }
+  .btn-submit {
+    background-color: $arboretim;
+    border-color: $arboretim;
+    margin-top: 44px;
+    //box-shadow : none !important;
+    width : 265px !important;
+    margin-left: auto;
+    margin-right : auto;
+    height: 49px;
+  }
+  .btn-forgot {
+    text-align: end;
+    > a {
+      text-decoration: none;
+      font-family:"AvenirLTStd" !important;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #333333;
+      
+    }
+     color: #666666!important;
+    border-color: transparent;
+    background-color: #F9F9F9;
+    &:hover {
+      border-color: transparent;
+      box-shadow: 0 !important;
+      background-color: #F9F9F9;
+    }
+    &:focus {
+      outline: 0 !important;
+    }
+    box-shadow: none !important;
+  }
+  .show-password {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    button {
+      border:none;
+      background-color: transparent;
+      &:hover {
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: 0 !important;
+      }
+    }
+    &:focus {
+      outline: 0 !important;
+    }
+    box-shadow: none !important;
+  }
+  .col-form-label-lg {
+    font-weight: 800;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    font-size: 14px;
+  }
+}
+.btn-cancel{
+  width: 48%;
+  box-shadow: 0 0 0 1px #000000;
+}
+.btn-forget{
+  width: 48%;
+  background-color: $arboretim;
+  border-color: $arboretim;
+  &:hover{
+    background-color: $arboretim;
+    border-color: $arboretim;
+  }
+}
+.forget{
+  text-align: center;
+  padding-top: 20px;
+}
+.input-login {
+  font-size: 16px !important;
+}
+.background-brilliance {
+  background-color: #F9F9F9;
+}
+.noted{
+  text-align: center;
+  padding: 0px 65px 10px 65px;
+  color: #333333;
+}
+}

@@ -1,0 +1,91 @@
+.contractors{
+    height: 68px;
+    width: 100%;
+    background: $white;
+    display: flex;
+    align-items: center;
+    .title {
+      .title-name {
+        cursor: pointer;  
+        font-size: 22px;
+        line-height: 26px;  
+        margin-left: 49px;
+        > svg{
+          position: relative;
+          top: 5px;
+          color: $gray-800;
+        }
+      }
+    }
+  }
+  .tabs-index{
+    border: none;
+    ul {
+        height:53px;  
+        color:$black;
+        border:none!important;
+        .nav-item{
+            height:53px;
+            width:190px!important;
+            text-align:center;
+            .nav-link{
+                  &:hover {
+                      border:none!important;
+                  }
+                  &:focus {
+                      border-bottom:7px #ACE5CD solid!important;
+                  }
+                  padding-top: 15px;
+                font-size:18px;  
+                height:53px;  
+                border-radius:0px!important;
+                color:$gray-800!important;
+            }
+            .active{
+                border:none!important;
+                background: #F9F9F9;
+                border-color:$white!important;
+                border-bottom:7px #ACE5CD solid!important;
+                border-radius:0px!important;
+            }
+        }
+    
+    }
+    .tab-content{
+        .active{
+            height:calc(100vh - 122px)!important;
+            // overflow-y: scroll;
+            background: $white;
+            .outside-table{
+              position:relative;
+              height: auto;
+              margin: 26px 36px 22px 38px;
+              border: 1px solid #DFE0EB;
+              box-sizing: border-box;
+              border-radius: 8px;
+              .pagination{
+                margin-top: 50px;
+                  color:#DADADA;
+                  font-size: 14px;
+                  line-height: 20px;
+                 .end{
+                      position:absolute;
+                      bottom:19px;
+                      text-align:end;
+                      .icon{
+                          cursor: pointer;
+                          padding: 0 10px 0 10px;
+                          .image{
+                              width: 7px;
+                              height: 12px;
+                          }
+                      }
+                 }
+              }
+            }
+          
+        }
+    }
+    
+  }
+  

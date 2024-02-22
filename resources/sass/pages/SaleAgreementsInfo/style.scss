@@ -1,0 +1,36 @@
+.sale-agreements-info{
+  .columbarium-niches{
+    .wrapper-btn{
+      margin-right: 32px;
+      .btn{
+        background: $arboretim;
+        color: $white;
+        font-size: 16px;
+      }
+      .btn-generate-invoice{
+        width: 184px;
+        height: 39px;
+      }
+      .btn-save{
+        width: 174px;
+        height: 39px;
+      }
+      .btn-print{
+        background: #66A48A;
+        width: 94px;
+        height: 39px;
+      }
+      .btn-send-agreement{
+        background: #66A48A;
+        width: 140px;
+        height: 39px;
+      }
+    }
+  }
+  .add-discount-custom {
+    color: #71C5A1;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

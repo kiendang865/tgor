@@ -1,0 +1,39 @@
+.service-niches {
+  > .container-lg{
+    // width: calc(100vw - 310px);
+  }
+  .wrapper-table {
+    margin-top: 12px;
+    padding: 24px 0;
+    background: $white;
+    max-height: calc(100vh - 80px);
+    overflow: auto;
+    .outside-table {
+      position: relative;
+      height: auto;
+      margin: 0px 36px 0px 38px;
+      border: 1px solid #dfe0eb;
+      box-sizing: border-box;
+      border-radius: 8px;
+      .pagination {
+        margin-top: 50px;
+        color: #dadada;
+        font-size: 14px;
+        line-height: 20px;
+        .end {
+          position: absolute;
+          bottom: 19px;
+          text-align: end;
+          .icon {
+            cursor: pointer;
+            padding: 0 10px 0 10px;
+            .image {
+              width: 7px;
+              height: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

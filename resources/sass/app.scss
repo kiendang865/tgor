@@ -1,0 +1,15 @@
+// Fonts
+@font-face {
+  font-family: "AvenirLTStd";
+  src: url("assets/font/AvenirLTStd-Book.otf") format("opentype");
+}
+body{
+  font-family:"AvenirLTStd" !important;
+}
+  @import './utils/_color.scss';
+  @import './utils/_breakpoint.scss';
+  @import './utils/_fontsize.scss';
+// Variables
+  @import 'variables';
+  @import 'custom';
+

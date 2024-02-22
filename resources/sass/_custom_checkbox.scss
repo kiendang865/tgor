@@ -1,0 +1,54 @@
+.custom-control {
+    padding-left: 0px!important;
+    margin-top: 12px;
+    > label{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 8px;
+    }
+    .custom-control-input {
+        top: 3px !important;
+        left: 5px !important;
+    }
+    .custom-control-label {
+        position: relative;
+        margin-bottom: 0;
+        vertical-align: top;
+        margin-left: 25px;
+        margin-top:3px;
+        color: $gray-600;
+        &:before {
+            position: absolute;
+            content: "";
+            width: 18px !important;
+            height: 18px !important;
+            left: -23px !important;
+            border: none !important;
+        }
+        &:after {
+            background: #ffffff;
+            position: absolute;
+            background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3E%3C/svg%3E");
+            content: "";
+            width: 18px !important;
+            height: 18px !important;
+            left: -23px !important;
+            border: 1px solid #DADADA !important;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            margin-right: 14px;
+        }
+    }
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: 8px;
+    border-color: #DADADA !important;
+    background-color:  #B70050 !important;
+}
